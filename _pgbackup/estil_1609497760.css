@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/* Description:  Curs IT Academy 2020/21 - Secció Bootstrap
+ Author:       estudi Qiero - Miq Alarcia
+ Author URI:   https://qiero.es
+ Version:      0.1
+ Created:      18.12.2020
+ Last Update:  
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ */
+/* SCSS propi */
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  color: #999;
+}
+
+a {
+  color: #999;
+}
+a:hover {
+  color: #999;
+  text-decoration: none;
+}
+
+.noPM {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+#contLogoSearch {
+  margin: auto;
+  max-width: 960px;
+}
+#contLogoSearch #busquedas {
+  width: 100%;
+  max-width: 400px;
+}
+#contLogoSearch input[type=text] {
+  border-radius: 50px;
+}
+
+#capsulas {
+  margin: auto;
+  max-width: 960px;
+}
+#capsulas a {
+  width: 16%;
+  min-width: 100px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 50px;
+}
+#capsulas a:hover {
+  background-color: bisque;
+}
+
+.caixaGenerica {
+  box-model: border-box;
+  border: 0.5rem solid transparent;
+  background-clip: padding-box;
+  height: 200px;
+  border-radius: 16px;
+  background-color: #c9c9c9;
+}
+
+.categoria {
+  background-color: #eee;
+}

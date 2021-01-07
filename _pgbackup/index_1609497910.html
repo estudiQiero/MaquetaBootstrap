@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exercici de Bootstrap</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link href="estil.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <header class="d-flex flex-column">
+                <div class="bg-secondary p-3 row">
+                    <p class="small text-white mb-0"><i class="fa fa-map-marker"></i> Barcelona, Sant Andreu de Palomar</p>
+                </div>
+                <!-- Contenidor logo / Busquedes / idiomes -->
+                <div class="row">
+                    <div class="align-items-center col-lg-10 col-md-10 col-sm-11 d-flex flex-row justify-content-between mb-4 mt-4" id="contLogoSearch">
+                        <!-- Logo -->
+                        <img src="img/logo.svg" alt="logotipo mi-empresa" width="120px" height="120px" class="p-2">
+                        <!-- Busquedes -->
+                        <div id="busquedas">
+                            <input type="text" class="form-control" placeholder="Búsquedas">
+                        </div>
+                        <!-- Idiomes -->
+                        <div class="dropdown p-3">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img src="img/bandESP-BN.svg" alt="bandera idioma español" width="40px" height="40px" class="p-1"> ESP
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#"><img src="img/bandCAT-BN.svg" alt="bandera idioma catalán" width="40px" height="40px" class="p-1">CAT</a>
+                                <a class="dropdown-item" href="#"><img src="img/bandENG-BN.svg" alt="bandera idioma inglés" width="40px" height="40px" class="p-1">ENG</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Menú de categories -->
+                <div class="row bg-secondary">
+                    <div class="col-lg-10 col-md-10 col-sm-11 container">
+                        <div id="capsulas" class="row">
+                            <div class="w-100 list-group d-flex flex-row justify-content-around pt-4 pb-2">
+                                <a href="#" class="list-group-item">Alimentación</a>
+                                <a href="#" class="list-group-item">Droguería</a>
+                                <a href="#" class="list-group-item">Ropa</a>
+                                <a href="#" class="list-group-item">Zapatos</a>
+                                <a href="#" class="list-group-item">Farmacia</a>
+                                <a href="#" class="list-group-item">Electrónica</a>
+                            </div>
+                            <div class="w-100 list-group d-flex flex-row justify-content-around pt-2 pb-4">
+                                <a href="#" class="list-group-item">Casa</a>
+                                <a href="#" class="list-group-item">Automoción</a>
+                                <a href="#" class="list-group-item">Jardinería</a>
+                                <a href="#" class="list-group-item">Deportes</a>
+                                <a href="#" class="list-group-item">Cultura</a>
+                                <a href="#" class="list-group-item">Juegos</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <!-- Principal -->
+        <main class="container">
+            <div class="row p-3">
+                <!-- columna esquerra -->
+                <div class="col-md-9">
+                    <!-- Fila ANUNCI wide 100%-->
+                    <div class="row">
+                        <div class="align-items-center caixaGenerica col-md-12 h-5 d-flex justify-content-center">
+                            <p class="noPM">Anunci Superior</p>
+                        </div>
+                    </div>
+                    <!-- Fila PRODUCTE / CATEGORIA / PRODUCTE -->
+                    <div class="row">
+                        <div class="align-items-center caixaGenerica col-md-4 d-flex justify-content-center">
+                            <p class="noPM">Producte suggerit 1</p>
+                        </div>
+                        <div class="col-md-4 d-flex justify-content-center align-items-center caixaGenerica">
+                            <p class="noPM">Categoría REFRESCOS</p>
+                        </div>
+                        <div class="col-md-4 d-flex justify-content-center align-items-center caixaGenerica">
+                            <p class="noPM">Producte suggerit 2</p>
+                        </div>
+                    </div>
+                    <!-- Fila CATEGORIA / PRODUCTE / PRODUCTE -->
+                    <div class="row">
+                        <div class="align-items-center caixaGenerica col-md-4 d-flex justify-content-center">
+                            <p class="noPM">Categoría ROPA de CAMA</p>
+                        </div>
+                        <div class="align-items-center caixaGenerica col-md-4 d-flex justify-content-center">
+                            <p class="noPM">Producte suggerit 3</p>
+                        </div>
+                        <div class="col-md-4 d-flex justify-content-center align-items-center caixaGenerica">
+                            <p class="noPM">Producte suggerit 4</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="align-items-center caixaGenerica col-md-4 d-flex justify-content-center">
+                            <p class="noPM">Producte suggerit 5</p>
+                        </div>
+                        <div class="align-items-center caixaGenerica col-md-4 d-flex justify-content-center">
+                            <p class="noPM">Producte suggerit 6</p>
+                        </div>
+                        <div class="col-md-4 d-flex justify-content-center align-items-center caixaGenerica">
+                            <p class="noPM">Categoría NEUMÀTICS</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Columna Dreta -->
+                <div class="col-md-3">
+</div>
+            </div>
+        </main>
+        <footer class="container-fluid bg-secondary pg-empty-placeholder">
+</footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    </body>
+</html>
